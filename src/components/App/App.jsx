@@ -29,7 +29,6 @@ export const App = () => {
   };
 
   const { good, neutral, bad } = state;
-  console.log(good, neutral, bad);
   const total = countTotalFeedback();
   const positivePercentage = countPositiveFeedbackPercentage();
 
